@@ -14,24 +14,25 @@ function LandingPage(){
                     <nav>
                          <NavLink to="/"><img className="logo-home" src={KevinHome} alt="Home logo" /></NavLink>
                          <div className='nav-link-container'>
-                              <NavLink to="/">About</NavLink>
+                              {/* <NavLink to="#AboutMe" href="#AboutMe">About</NavLink>
                               <NavLink to="/">Projects</NavLink>
                               <NavLink to="/">Contact</NavLink>
-                              <NavLink className="resume" to="/">Resume</NavLink>
+                              <NavLink className="resume" to="/">Resume</NavLink> */}
+                              <a href="#AboutMe">About</a>
+                              <a href="#Projects">Projects</a>
+                              <a href="#Contact">Contact</a>
+                              <a href="#Contact" className="resume">Resume</a>
                          </div>
                     </nav>
                </div>
-
                <div className="logo-container"><img src={Logo} alt="logo" className="logo" />
-               </div>
+          </div>
 
 
 
 
                <div className="landing-page-button-container">
-                    {/* <Link className="landing-page-button" to="/">Let Me Show You Around </Link> */}
-                    <a href="/"><button className="landing-page-button">PROCEED</button></a>
-
+                    <a href="#AboutMe"><button className="landing-page-button">PROCEED</button></a>
                </div>
           </div>
      )
