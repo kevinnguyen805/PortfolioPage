@@ -35,8 +35,8 @@ function Project() {
                     <h4 className="project-subheadline">Lambda Build Week</h4>
                     <p>Immunify is an immunization tracking app, allowing users to keep track of your family's immunization records through your phone. This app also allows medical professionals to upload immunization records to your personal or family account. </p>
                     <p>Tech stack: HTML5, CSS3 </p>
-                    <button className="project-button">View</button>
-                    <button className="project-code-button">Code</button>
+                    <a href="https://immunify-app.netlify.com/"><button className="project-button">View</button></a>
+                    <a href="https://github.com/BWimmunizationtracker/frontEnd"><button className="project-code-button">Code</button></a>
                </div>
 
                <div className="immunify-picture">
@@ -48,7 +48,7 @@ function Project() {
           <div className="individual-project">
                     <div className='immunify-picture'>
                          <div className="carousel-container">
-                              <Carousel defaultWait={3000} /*wait for 1000 milliseconds*/ >
+                              <Carousel defaultWait={3000}>
                                    <Slide right>
                                         <div className="bookr-project">
                                              <img src={BookrBook} />
@@ -73,8 +73,8 @@ function Project() {
                     </div>
                     
                     
-                    <button className="project-button">View</button>
-                    <button className="project-code-button">Code</button>
+                    <a href="https://bookr.now.sh/book-list"><button className="project-button">View</button></a>
+                    <a href="https://github.com/BW-BookR-2019/FE"><button className="project-code-button">Code</button></a>
                </div>
           </div>
 
@@ -93,12 +93,12 @@ function Project() {
                
                
                
-               <button className="project-button">View</button>
-               <button className="project-code-button">Code</button>
+               <a href="https://marvel-marathon-guide.netlify.com/"><button className="project-button">View</button></a>
+               <a href="https://github.com/kevinnguyen805/marvel-marathon-guide"><button className="project-code-button">Code</button></a>
                </div>
 
                <div className="immunify-picture">
-                    <img src={Marvel1} /> 
+               <img src={Marvel1} /> 
                </div>
           </div>
 

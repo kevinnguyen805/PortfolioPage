@@ -20,6 +20,7 @@ nav{
   align-items:center;
   justify-content:space-between;
   padding:0 3%;
+  opacity:0.9;
 }
 nav a{
   text-decoration:none;
@@ -27,10 +28,14 @@ nav a{
   font-size:1.25rem;
   padding:7px;
 }
+nav:hover{
+  opacity:1;
+}
 nav a:hover{
   text-decoration:underline;
   transform:scale(1.25);
   transition: .3s cubic-bezier(0.2,0.8,0.2,1);
+  
 }
 .nav-link-container{
   width:40%;
@@ -87,9 +92,17 @@ nav a:hover{
     width:70%;
   }
 }
+.nav-bar{
+   align-items: center;
+     position: fixed;
+     top: 0;
 
-
-
+     width: 100%;
+     opacity: 0.97;
+     background: #fcfcfb;
+     font-size: 1.2rem;
+     z-index: 99999;
+}
 
 
 
@@ -185,7 +198,7 @@ nav a:hover{
 /* * About Me section */
 .about-container{
   margin:10% auto;
-  padding:5% 0;
+  padding-top:13%;
   max-width:1000px;
   width:100%;
   display:flex;
@@ -232,6 +245,7 @@ nav a:hover{
 }
 /* * Check things above */
 .project-container{
+  padding-top:70px;
   margin:10% auto;
   max-width:1000px;
   width:100%;
@@ -361,6 +375,43 @@ nav a:hover{
 
 
 
+
+
+/* * CONTACT SHEET */
+.contact-container{
+  margin:13% auto;
+  margin-top:0;
+  max-width:1000px;
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  text-align:center;
+}
+.contact-icon-container a{
+  text-decoration:none;
+}
+.contact-icon-container{
+  margin-top:3%;
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  justify-content:space-evenly;
+}
+.contact-container img{
+  width:80px;
+  box-shadow: 0 15px 20px rgba(0,0 ,0, .25);
+  border-radius:50%;
+}
+.contact-icon:hover{
+  transition: .25s ease-in;
+  transform: translatey(-7px);
+}
+.contact-container button{
+  border:none;
+}
 
 
 
