@@ -118,7 +118,7 @@ nav a:hover{
 /* * Main Logo */
 .logo{
   width:100%;
-  max-width:950px;
+  max-width:1000px;
 }
 .logo-container{
   display:flex;
